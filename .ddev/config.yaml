@@ -1,7 +1,7 @@
 name: pcov-demo
 type: laravel
 docroot: public
-php_version: "8.0"
+php_version: "8.1"
 webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
@@ -17,6 +17,7 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 nodejs_version: "16"
+webimage_extra_packages: ['php8.1-pcov']
 
 # Key features of ddev's config.yaml:
 
